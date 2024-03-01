@@ -6,7 +6,6 @@ let trophiesWon = 27;
 function createManager(managerName, managerAge, currentTeam, trophiesWon) {
   return [managerName, managerAge, currentTeam, trophiesWon];
 }
-
 try {
   var manager = createManager(
     managerName,
@@ -16,9 +15,7 @@ try {
   );
 } catch (e) {
 }
-
-var formation = [4, 4, 3];
-
+var formation = [4, 4, 3]
 function createFormation(formation) {
   if (formation.length > 0) {
     return {
